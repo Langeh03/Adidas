@@ -1,8 +1,10 @@
-
+import Nav from "./Components/NavigationBar/Navigation"
 
 function App() {
   return (
-      <div></div>
+      <>
+        <Nav/>
+      </>
   );
 }
 
