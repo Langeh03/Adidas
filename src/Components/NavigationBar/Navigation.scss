@@ -220,6 +220,7 @@ button{
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    font-family: "adihausdinbold";
                     .notification{
                         font-size: 12px;
                         font-family: 'adihausdinbold';
@@ -264,16 +265,16 @@ button{
                         height: 38.39px;
                     }
                 }
-                ul{
+                .menu-mid{
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     height: 47px;
                     margin: 0 10px;
                     position: static;
-                    li{
+                    .menu-mid-wrapper{
                         height: 47px;
-                        a{
+                        .outer{
                             padding: 0 10px;
                             font-size: 14px;
                             position: relative;
@@ -287,8 +288,77 @@ button{
                                 border-bottom: #000 3px solid;
                             }
                         }
-                        .target{
-                            font-family: 'adihausdinbold';
+                        .drop-down{
+                            position: absolute;
+                            left: -40px;
+                            width: calc(100% + 40px);
+                            border-bottom: 1px solid #eceff1;
+                            border-top: 1px solid #eceff1;
+                            background-color: #ffffff;
+                            .child{
+                                display: grid;
+                                grid-auto-flow: column;
+                                grid-template-columns: 1.8fr 1fr 1fr 1fr 1fr 1fr;
+                                gap: 20px;
+                                padding: 0 80px;
+                            }
+                            .first-child{
+                                .main-section{
+                                    border-right: 1px solid #eceff1;
+                                }
+                                .first-child-wrapper{
+                                    padding: 40px 0 0 0;
+                                    .holder-1{
+                                        margin-bottom: 20px;
+                                        a{
+                                            display: block;
+                                            margin-bottom: 5px;
+                                            font-family: 'adihausdinbold';
+                                            font-size: 14px;
+                                            line-height: 20px;
+                                            text-transform: uppercase;
+                                            &:hover{
+                                                text-decoration: underline;
+                                            }
+                                        }
+                                        ul{
+                                            li{
+                                                a{
+                                                    margin: 9px 0 0;
+                                                    font-family: 'adihausdin';
+                                                    line-height: 16px;
+                                                    text-transform: capitalize;
+                                                }
+                                                .separator{
+                                                    height: 20px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .last-child{
+                                li{   
+                                    display: flex;
+                                    align-items: center;
+                                    height: 40px;
+                                    a{
+                                        font-family: 'adihausdinbold';
+                                        font-size: 14px;
+                                        line-height: 16px;
+                                        text-transform: capitalize;
+                                        &:hover{
+                                            text-decoration: underline;
+                                        }
+                                    }
+                                }
+                            }
+                            hr{
+                                height: 1px;
+                                margin: 0;
+                                background-color: #eceff1;
+                                border: none;
+                            }
                         }
                     }
                 }
@@ -353,12 +423,45 @@ button{
             .nav{
                 padding: 0 20px;
                 .main_nav{
-                    ul{
+                    .menu-mid{
                         justify-content: flex-start;
-                        li{
-                            a{
+                        .menu-mid-wrapper{
+                            .outer{
                                 font-size: 12px;
                             }
+                            .drop-down{
+                                left: -20px;
+                                width: calc(100% + 40px);
+                                .child{
+                                    grid-template-columns: repeat(6, 1fr);
+                                    padding: 0 20px;
+                                }
+                                .first-child{
+                                    .main-section{
+                                        border: none;
+                                    }
+                                    .first-child-wrapper{
+                                        .holder-1{
+                                            ul{
+                                                li{
+                                                    a{
+                                                        margin: 7px 0 0;
+                                                        font-size: 12px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .last-child{
+                                    li{
+                                        a{
+                                            font-size: 12px;
+                                        }
+                                    }
+                                }
+                            }
+                            
                         }
                     }
                 }
@@ -467,7 +570,7 @@ button{
                             height: 32px;
                         }
                     }
-                    ul{
+                    .menu-mid{
                         display: none;
                     }
                     .min-menu{
