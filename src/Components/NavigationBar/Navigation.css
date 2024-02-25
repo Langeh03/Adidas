@@ -1,0 +1,446 @@
+@font-face {
+  font-family: "adihausdin";
+  src: url(../../Fonts/adihausdin.ttf);
+}
+@font-face {
+  font-family: "adihausdinbold";
+  src: url(../../Fonts/AdihausDIN\ Bold.ttf);
+}
+@font-face {
+  font-family: "adineuePro";
+  src: url(../../Fonts/adineue\ PRO.ttf);
+}
+@font-face {
+  font-family: "adineueProBold";
+  src: url(../../Fonts/adineue\ PRO\ Bold.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: "adihausdin";
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.container .wrapper .ads .adsSection {
+  background-color: black;
+  color: white;
+  height: 40px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.container .wrapper .ads .adsSection .adswrapper .holder div {
+  font-family: "adihausdinbold";
+  font-size: 11px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  align-items: center;
+}
+.container .wrapper .ads .adsSection .adswrapper .holder div p {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  letter-spacing: 0.1em;
+  line-height: 1.2;
+}
+.container .wrapper .ads .adsSection .adswrapper .holder div span {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.container .wrapper .ads .adsSection .adswrapper .holder div span img {
+  width: 2em;
+}
+.container .wrapper .ads .dropDownSection {
+  display: none;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: white;
+}
+.container .wrapper .ads .dropDownSection .ddwrapper .exitbtn {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.container .wrapper .ads .dropDownSection .ddwrapper .exitbtn .wrapper {
+  margin-top: 3px;
+  width: 48px;
+  height: 48px;
+  border: 1px solid black;
+}
+.container .wrapper .ads .dropDownSection .ddwrapper .exitbtn .wrapper span svg {
+  width: 28px;
+  height: 29px;
+  cursor: pointer;
+  padding: 10px;
+}
+.container .wrapper .ads .dropDownSection .ddwrapper .content {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 100px;
+  padding-top: 30px;
+  margin-bottom: 100px;
+}
+.container .wrapper .ads .dropDownSection .ddwrapper .content section {
+  width: 300px;
+  display: block;
+}
+.container .wrapper .ads .dropDownSection .ddwrapper .content section h4 {
+  font-family: "adihausdinbold";
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 10px;
+  line-height: 1.25;
+}
+.container .wrapper .ads .dropDownSection .ddwrapper .content section p {
+  font-family: "adihausdin";
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.container .wrapper .ads .dropDownSection .ddwrapper .content section div {
+  margin: 0;
+  margin-bottom: 20px;
+  height: 22px;
+}
+.container .wrapper .ads .dropDownSection .ddwrapper .content section div a {
+  text-decoration: underline;
+  color: black;
+  height: 16.89px;
+  display: inline-flex;
+}
+.container .wrapper .ads .dropDownSection .ddwrapper .content section div a span {
+  font-family: "adihausdinbold";
+  font-size: 13px;
+  line-height: 1.3;
+  letter-spacing: 0.15em;
+}
+.container .wrapper .ads .dropDownSection .ddwrapper .content section div a span:hover {
+  background-color: black;
+  color: white;
+}
+.container .wrapper .ads .dropDownSection .ddwrapper .content section .second {
+  margin: 0;
+}
+.container .wrapper .nav {
+  padding: 0 40px;
+  background-color: white;
+}
+.container .wrapper .nav .min_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 32px;
+  position: static;
+}
+.container .wrapper .nav .min_nav li {
+  display: flex;
+  height: 30px;
+  padding: 0 10px;
+  align-items: center;
+}
+.container .wrapper .nav .min_nav li a {
+  font-size: 12px;
+}
+.container .wrapper .nav .min_nav li a:hover {
+  text-decoration: underline;
+}
+.container .wrapper .nav .min_nav li div button {
+  padding: 0 10px;
+  height: 32px;
+}
+.container .wrapper .nav .min_nav li div button img {
+  width: 20px;
+  height: 10px;
+  margin: 2px;
+}
+.container .wrapper .nav .min_nav .target {
+  padding: 0;
+}
+.container .wrapper .nav .main_nav {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 5fr 2fr;
+  align-items: center;
+}
+.container .wrapper .nav .main_nav span {
+  display: flex;
+}
+.container .wrapper .nav .main_nav span svg {
+  width: 21px;
+  height: 24px;
+}
+.container .wrapper .nav .main_nav .mobile {
+  display: none;
+}
+.container .wrapper .nav .main_nav .target {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .wrapper .nav .main_nav .target .notification {
+  font-size: 12px;
+  font-family: "adihausdinbold";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 22px;
+  height: 22px;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ffd200;
+}
+.container .wrapper .nav .main_nav .target .empty-promt {
+  position: absolute;
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1019607843);
+  top: 100%;
+  right: 0;
+  width: 310px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+.container .wrapper .nav .main_nav .target .empty-promt span {
+  font-size: 18px;
+  font-family: "adineueProBold";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+.container .wrapper .nav .main_nav .menu {
+  position: relative;
+  top: -10px;
+}
+.container .wrapper .nav .main_nav .menu svg {
+  width: 60px;
+  height: 38.39px;
+}
+.container .wrapper .nav .main_nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 47px;
+  margin: 0 10px;
+  position: static;
+}
+.container .wrapper .nav .main_nav ul li {
+  height: 47px;
+}
+.container .wrapper .nav .main_nav ul li a {
+  padding: 0 10px;
+  font-size: 14px;
+  position: relative;
+  height: 100%;
+  white-space: nowrap;
+  letter-spacing: 1.87px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+}
+.container .wrapper .nav .main_nav ul li a:hover {
+  border-bottom: #000 3px solid;
+}
+.container .wrapper .nav .main_nav ul li .target {
+  font-family: "adihausdinbold";
+}
+.container .wrapper .nav .main_nav .min-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.container .wrapper .nav .main_nav .min-menu div {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  flex-grow: 1;
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.container .wrapper .nav .main_nav .min-menu div input {
+  background-color: #ECEFF1;
+  max-width: 153px;
+  height: 32px;
+  padding: 0 35px 0 10px;
+  border: none;
+  /*&:target{
+      border: #000 solid 1px;
+      border-radius: 0;
+      &::placeholder{
+          display: none;
+      }
+  }*/
+}
+.container .wrapper .nav .main_nav .min-menu div input::-moz-placeholder {
+  color: black;
+  font-family: "adihausdin";
+  font-size: 14px;
+}
+.container .wrapper .nav .main_nav .min-menu div input::placeholder {
+  color: black;
+  font-family: "adihausdin";
+  font-size: 14px;
+}
+.container .wrapper .nav .main_nav .min-menu div div {
+  cursor: pointer;
+  position: absolute;
+  z-index: 10;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.container .wrapper .nav .main_nav .min-menu .shop-bag:hover .empty-promt {
+  display: flex;
+}
+
+@media only screen and (max-width: 1119px) {
+  .container .wrapper .nav {
+    padding: 0 20px;
+  }
+  .container .wrapper .nav .main_nav ul {
+    justify-content: flex-start;
+  }
+  .container .wrapper .nav .main_nav ul li a {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1041px) {
+  .container .wrapper .nav .main_nav .min-menu div input {
+    max-width: 75px;
+  }
+}
+@media only screen and (max-width: 959px) {
+  .container .wrapper .ads .adsSection {
+    height: 45px;
+  }
+  .container .wrapper .ads .adsSection .adswrapper .holder div {
+    height: 45px;
+  }
+  .container .wrapper .ads .adsSection .adswrapper .holder div span {
+    position: absolute;
+    top: 14px;
+    right: 20px;
+  }
+  .container .wrapper .ads .dropDownSection .ddwrapper .content {
+    padding-left: 60px;
+    padding-top: 126px;
+    margin-bottom: 200px;
+  }
+  .container .wrapper .ads .dropDownSection .ddwrapper .content section {
+    width: 400px;
+    margin-bottom: 80px;
+  }
+  .container .wrapper .nav {
+    padding: 0 10px;
+  }
+  .container .wrapper .nav .min_nav {
+    display: none;
+  }
+  .container .wrapper .nav .main_nav {
+    grid-template-columns: 2fr 1fr 2fr;
+    padding: 5px 0;
+  }
+  .container .wrapper .nav .main_nav .mobile {
+    display: block;
+  }
+  .container .wrapper .nav .main_nav .mobile-first {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .container .wrapper .nav .main_nav .mobile-first button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .container .wrapper .nav .main_nav .mobile-first button svg {
+    width: 3.5em;
+    height: 3.5em;
+  }
+  .container .wrapper .nav .main_nav .mobile-first a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+  }
+  .container .wrapper .nav .main_nav .mobile-first a svg {
+    width: 24px;
+    height: 27px;
+  }
+  .container .wrapper .nav .main_nav .menu {
+    position: relative;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  .container .wrapper .nav .main_nav .menu svg {
+    width: 50px;
+    height: 32px;
+  }
+  .container .wrapper .nav .main_nav ul {
+    display: none;
+  }
+  .container .wrapper .nav .main_nav .min-menu {
+    display: none;
+  }
+  .container .wrapper .nav .main_nav .mobile-last {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .container .wrapper .ads .dropDownSection {
+    height: 100vh;
+  }
+  .container .wrapper .ads .dropDownSection .ddwrapper .content {
+    padding: 20px 20px 0;
+    margin-bottom: 180px;
+  }
+  .container .wrapper .ads .dropDownSection .ddwrapper .content section {
+    width: 559px;
+    margin-bottom: 0;
+  }
+}/*# sourceMappingURL=Navigation.css.map */
