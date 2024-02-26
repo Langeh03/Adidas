@@ -81,7 +81,7 @@ function Nav() {
                         <ul className='menu-mid'>
                             <li className='menu-mid-wrapper'>
                                 <a className='target outer' href="#">MEN</a>
-                                <div className='drop-down'>
+                                <div className='drop-down men'>
                                     <ul className='first-child child'>
                                         <li className='first-child-wrapper main-section'>
                                             <div className='holder-1'>
@@ -592,10 +592,1605 @@ function Nav() {
                                     </ul>
                                 </div>
                             </li>
-                            <li className='menu-mid-wrapper'><a className='target outer' href="#">WOMEN</a></li>
-                            <li className='menu-mid-wrapper'><a className='target outer' href="#">KIDS</a></li>
-                            <li className='menu-mid-wrapper'><a href="#" className='outer'>SALE</a></li>
-                            <li className='menu-mid-wrapper'><a href="#" className='outer'>3 STRIPE LIFE</a></li>
+                            <li className='menu-mid-wrapper'>
+                                <a className='target outer' href="#">WOMEN</a>
+                                <div className='drop-down women'>
+                                    <ul className='first-child child'>
+                                        <li className='first-child-wrapper main-section'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        new & trending
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                New Arrivals
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Best Sellers
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Only At Adidas
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Members Exclusives
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Release Dates
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <div className='separator'>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                adidas x FARM Rio
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Goth
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Oversized Fits
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <div className='separator'>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        shoes
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Sneakers
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Running
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Workout & Gym
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Walking
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Slides & Sandals
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Shoes $100 & Under
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Hiking
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Soccer
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Tennis
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Basketball
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Platform Shoes
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Golf
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Volleyball
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        Clothing
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Hoodies & Sweatshirts
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                T-Shirts & Tops
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Plus Size
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Pants
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Feelce
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Jackets & Coats
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Tights & Leggings
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Shorts
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Sports Bras
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Tracksuits
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Dresses & Skirts
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Matching Sets
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        Accessories
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Bags & Backpacks
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Balls
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Gloves
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Hats
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Headphones
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Socks
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Water Bottles
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        shop by sports
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Basketball
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Cycling
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Golf
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Hiking
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Outdoor
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Running
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Soccer
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Softball
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Swim
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Tennis
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Volleyball
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Workout & Gym
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Yoga
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        Shop by collection
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                adicolor clothing
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                adidas by Stella McCartney
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Gazelle
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Originals
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Samba
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Sportswear
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Supernova
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                TERREX
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Ultraboost
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Y-3
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <hr />
+                                    <ul className='last-child child'>
+                                        <li>
+                                            <a href="#">
+                                                <div>Sale</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div>All Women's Shoes</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div>All Women's Clothing</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div>All Women's Accessories</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div>All Women's Sport</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div>All Women's</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li className='menu-mid-wrapper'>
+                                <a className='target outer' href="#">KIDS</a>
+                                <div className='drop-down kids'>
+                                    <ul className='first-child child'>
+                                        <li className='first-child-wrapper main-section'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        new & trending
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                New Arrivals
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Best Sellers
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <div className='separator'>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Disney Collection
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                LEGO® Collection
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Matching Sets
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <div className='separator'>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        boys shoes
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Shoes $80 & Under
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Sneaker
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Soccer
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Running
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Basketball
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Slides & Sandals
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Slip-On & Straps
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        boys clothing
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Hoodies & Sweatshirts
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                T-Shirts & Tops
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Pants
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Fleece
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Jackets & Coats
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Shorts
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Tracksuits
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Matching Sets
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        Girls shoes
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Shoes $80 & Under
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Sneaker
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Soccer
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Running
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Basketball
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Slides & Sandals
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Slip-On & Straps
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        Girls clothing
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Hoodies & Sweatshirts
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                T-Shirts & Tops
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Pants
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Fleece
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Jackets & Coats
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Tights & Leggings
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Shorts
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Matching Sets
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Tracksuits
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        babies & toddlers
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Baby Girl
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Baby Boy
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                All Shoes (1k - 10k)
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                All Clothin (0 - 3T)
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        shop by age
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Youth & Teens (8-16 years)
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Children (4-8 years)
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Babies & Toddlers (0-4 years)
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        Accessories
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Backpacks & Bags
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Hat
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Socks
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        shop by sports
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Baseball
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Basketball
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Football
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Golf
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Outdoor
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Running
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Soccer
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Volleyball
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <hr />
+                                    <ul className='last-child child'>
+                                        <li>
+                                            <a href="#">
+                                                <div>Sale</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div>All Kids Shoes</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div>All Kids Clothing</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div>All Kids Accessories</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div>All Kids Sport</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div>All Kids</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li className='menu-mid-wrapper'>
+                                <a href="#" className='outer'>SALE</a>
+                                <div className='drop-down sale'>
+                                    <ul className='first-child child'>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        featured sale
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Shoes $100 & Under
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        men
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Shoes
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Clothing
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Accessories
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        women
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Shoes
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Clothing
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Accessories
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        kids
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Boys Sale
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Girls Sale
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <hr />
+                                    <ul className='last-child child'>
+                                        <li>
+                                            <a href="#">
+                                                <div>Sale</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div>All Men's Sale</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div>All Women's Sale</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div>All Kids Sale</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li className='menu-mid-wrapper'>
+                                <a href="#" className='outer'>3 STRIPE LIFE</a>
+                                <div className='drop-down stripe-life'>
+                                    <ul className='first-child child'>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        what's new
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                New Arrivals
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Best Sellers
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Trending Now
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Release Dates
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Blog
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        collaborations
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Bad Bunny
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Fear of God Athletics
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Pharrell
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Prada
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                adidas by Stella McCartney
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Y-3
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Edison Chen
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        our world
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Purpose
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Community
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                adiClub
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        sports
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Baseball
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Basketball
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Football
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Golf
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Hockey
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Outdoor
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Running
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Soccer
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Skateboarding
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Tennis
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Workout
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Volleyball
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Weightlifting
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Yogo
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        originals
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Forum
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Gazelle
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                NMD
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Originals Clothing
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Samba
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Stan Smith
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Superstar
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className='first-child-wrapper'>
+                                            <div className='holder-1'>
+                                                <a href="#">
+                                                    <div>
+                                                        collections
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                4D
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                adizero
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Copa
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Five Ten
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Supernova
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                TERREX
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Tiro
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                Ultraboost
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div>
+                                                                X
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
                         </ul>
                         <div className='min-menu'>
                             <div>

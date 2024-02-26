@@ -187,7 +187,7 @@ button {
 .container .wrapper .nav .main_nav {
   display: grid;
   position: relative;
-  grid-template-columns: 1fr 5fr 2fr;
+  grid-template-columns: 1.8fr 5fr 2fr;
   align-items: center;
 }
 .container .wrapper .nav .main_nav span {
@@ -279,8 +279,9 @@ button {
 }
 .container .wrapper .nav .main_nav .menu-mid .menu-mid-wrapper .drop-down {
   position: absolute;
+  top: 51px;
   left: -40px;
-  width: calc(100% + 40px);
+  width: calc(100% + 80px);
   border-bottom: 1px solid #eceff1;
   border-top: 1px solid #eceff1;
   background-color: #ffffff;
@@ -341,6 +342,27 @@ button {
   background-color: #eceff1;
   border: none;
 }
+.container .wrapper .nav .main_nav .menu-mid .menu-mid-wrapper .men {
+  display: none;
+}
+.container .wrapper .nav .main_nav .menu-mid .menu-mid-wrapper .women {
+  display: none;
+}
+.container .wrapper .nav .main_nav .menu-mid .menu-mid-wrapper .kids {
+  display: none;
+}
+.container .wrapper .nav .main_nav .menu-mid .menu-mid-wrapper .sale {
+  display: none;
+}
+.container .wrapper .nav .main_nav .menu-mid .menu-mid-wrapper .sale .child {
+  grid-template-columns: repeat(4, 1fr);
+}
+.container .wrapper .nav .main_nav .menu-mid .menu-mid-wrapper .stripe-life {
+  display: none;
+}
+.container .wrapper .nav .main_nav .menu-mid .menu-mid-wrapper .stripe-life .child {
+  grid-template-columns: repeat(6, 1fr);
+}
 .container .wrapper .nav .main_nav .min-menu {
   display: flex;
   justify-content: flex-end;
@@ -398,6 +420,9 @@ button {
 @media only screen and (max-width: 1119px) {
   .container .wrapper .nav {
     padding: 0 20px;
+  }
+  .container .wrapper .nav .main_nav {
+    grid-template-columns: 1fr 5fr 2fr;
   }
   .container .wrapper .nav .main_nav .menu-mid {
     justify-content: flex-start;

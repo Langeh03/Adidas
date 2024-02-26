@@ -201,7 +201,7 @@ button{
             .main_nav{
                 display: grid;
                 position: relative;
-                grid-template-columns: 1fr 5fr 2fr;
+                grid-template-columns: 1.8fr 5fr 2fr;
                 align-items: center;
                 span{
                     display: flex;
@@ -290,8 +290,9 @@ button{
                         }
                         .drop-down{
                             position: absolute;
+                            top: 51px;
                             left: -40px;
-                            width: calc(100% + 40px);
+                            width: calc(100% + 80px);
                             border-bottom: 1px solid #eceff1;
                             border-top: 1px solid #eceff1;
                             background-color: #ffffff;
@@ -360,6 +361,27 @@ button{
                                 border: none;
                             }
                         }
+                        .men{
+                            display: none;
+                        }
+                        .women{
+                            display: none;
+                        }
+                        .kids{
+                            display: none;
+                        }
+                        .sale{
+                            display: none;
+                            .child{
+                                grid-template-columns: repeat(4, 1fr);
+                            }
+                        }
+                        .stripe-life{
+                            display: none;
+                            .child{
+                                grid-template-columns: repeat(6, 1fr);
+                            }
+                        }
                     }
                 }
                 .min-menu{
@@ -423,6 +445,7 @@ button{
             .nav{
                 padding: 0 20px;
                 .main_nav{
+                    grid-template-columns: 1fr 5fr 2fr;
                     .menu-mid{
                         justify-content: flex-start;
                         .menu-mid-wrapper{
