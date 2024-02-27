@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXmark } from '@fortawesome/free-solid-svg-icons'
 import { faHeart } from '@fortawesome/free-regular-svg-icons'
 import usflg from '../../Assets/us-flg.png'
-import ddIcon from '../../Assets/dd.svg'
+import dropdown from '../../Assets/dropdown.png'
+import dropdown2 from '../../Assets/dropdown2.png'
 
 function Nav() {
     return(
@@ -15,7 +16,7 @@ function Nav() {
                             <div className="holder">
                                 <div>
                                     <p>FREE STANDARD SHIPPING WITH ADICLUB</p>
-                                    <span><img src={ ddIcon } /></span></div>
+                                    <span><img src={ dropdown } /></span></div>
                             </div>
                         </div>
                     </div>
@@ -2277,7 +2278,67 @@ function Nav() {
                         <FontAwesomeIcon icon={faXmark} />
                     </button>
                 </div>
-                <div className='content'></div>
+                <div className='content'>
+                    <ul>
+                        <li>
+                            <button>
+                                <span className='target'>MEN</span>
+                                <img src={ dropdown2 } />
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <span className='target'>WOMEN</span>
+                                <img src={ dropdown2 } />
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <span className='target'>KIDS</span>
+                                <img src={ dropdown2 } />
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <span>3 STRIPE LIFE</span>
+                                <img src={ dropdown2 } />
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <span>SALE</span>
+                                <img src={ dropdown2 } />
+                            </button>
+                        </li>
+                    </ul>
+                    <hr />
+                    <ul>
+                        <li>
+                            <a href="#"><span>My Account</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Exchanges & Returns</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Order Tracker</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>adiClub</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Gift Cards</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Store Locator</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Mobile Apps</span></a>
+                        </li>
+                        <li>
+                            <div></div>
+                        </li>
+                    </ul>
+                </div>
                 <ul className='footer'>
                     <a href="#">
                         <img src={usflg} />
