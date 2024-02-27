@@ -8,7 +8,7 @@ import ddIcon from '../../Assets/dd.svg'
 function Nav() {
     return(
         <div className="container">
-            <div className="wrapper">
+            <div className="nav-wrapper">
                 <div className="ads">
                     <div className="adsSection">
                         <div className="adswrapper">
@@ -2265,6 +2265,25 @@ function Nav() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='mobile-menu'>
+                <div className='header'>
+                    <a href="#">
+                        <svg viewBox="100 100 50 32" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M 150.07 131.439 L 131.925 100 L 122.206 105.606 L 137.112 131.439 L 150.07 131.439 Z M 132.781 131.439 L 120.797 110.692 L 111.078 116.298 L 119.823 131.439 L 132.781 131.439 Z M 109.718 121.401 L 115.509 131.439 L 102.551 131.439 L 100 127.007 L 109.718 121.401 Z" fill="black"></path>
+                        </svg>
+                    </a>
+                    <button>
+                        <FontAwesomeIcon icon={faXmark} />
+                    </button>
+                </div>
+                <div className='content'></div>
+                <ul className='footer'>
+                    <a href="#">
+                        <img src={usflg} />
+                        <span>United States</span>
+                    </a>
+                </ul>
             </div>
         </div>
     );
