@@ -6,7 +6,7 @@
 .container3 span {
   display: inline-block;
   vertical-align: middle;
-  margin: 0 40px 15px;
+  margin: 0 40px 15px 0;
   font-family: "adineueProBold";
   font-size: 30px;
   letter-spacing: 1.5px;

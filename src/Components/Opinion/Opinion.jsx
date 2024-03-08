@@ -7,9 +7,7 @@ function Count() {
             <div className="child1">
                 <h5>Your opinion counts</h5>
                 <p>We strive to serve you better and appreciate your feedback</p>
-                <div>
-                    <a href="#">Please fill out this short survey</a>
-                </div>
+                <div></div>
             </div>
             <a href="#navigation" className='child2'>
                 <span className='target'><img src={dd2} /></span>
