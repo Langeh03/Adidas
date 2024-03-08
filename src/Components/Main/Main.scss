@@ -1,0 +1,185 @@
+.container5{
+    .wrapper{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 40px;
+        .pic{
+            img{
+                display: block;
+                object-fit: cover;
+                object-position: 0px 1px;
+                width: 100%;
+                height: 100%;
+            }
+            .mainSub{
+                display: none;
+            }
+            .mainSub2{
+                display: none;
+            }
+        }
+        .content{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: 0 64px;
+            padding: 40px 0 60px;
+            .wrapper1{
+                position: relative;
+                bottom: 0;
+                max-width: 550px;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                .child1{
+                    margin: 0 0 30px;
+                    color: #ffffff;
+                    h2{
+                        font-family: 'adineueProBold';
+                        font-size: 40px;
+                        line-height: 40px;
+                        margin: 0 0 10px;
+                    }
+                    p{
+                        font-size: 18px;
+                        line-height: 24px;
+                        margin: 0;
+                    }
+                }
+                .child2{
+                    display: flex;
+                    gap: 8px;
+                    a{
+                        background-color: #ffffff;
+                        border: 1px black solid;
+                        font-size: 14px;
+                        font-family: 'adihausdinbold';
+                        letter-spacing: 2px;
+                        line-height: 20px;
+                        display: inline-flex;
+                        align-items: center;
+                        padding: 5px 15px;
+                        height: 27px;
+                        width: fit-content;
+                        span{
+                            height: 24px;
+                            img{
+                                width: 24px;
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 959px){
+    .container5{
+        .wrapper{
+            .pic{
+                height: 100vh;
+                .main{
+                    display: none;
+                }
+                .mainSub{
+                    display: block;
+                }
+            }
+            .content{
+                padding: 40px 0;
+                .wrapper1{
+                    .child1{
+                        h2{
+                            font-size: 30px;
+                            margin: 0 0 10px;
+                            line-height: 32px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .container5{
+        .wrapper{
+            .content{
+                margin: 0 32px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 649px){
+    .container5{
+        .wrapper{
+            .pic{
+                height: fit-content;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 599px){
+    .container5{
+        .wrapper{
+            .pic{
+                height: 100vh;
+                .main{
+                    display: none;
+                }
+                .mainSub{
+                    display: none;
+                }
+                .mainSub2{
+                    display: block;
+                }
+            }
+            .content{
+                padding: 20px 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 509px){
+    .container5{
+        .wrapper{
+            .pic{
+                height: fit-content;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 415px){
+    .container5{
+        .wrapper{
+            .content{
+                .wrapper1{
+                    .child2{
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 389px){
+    .container5{
+        .wrapper{
+            .content{
+                margin: 0 16px;
+            }
+        }
+    }
+}

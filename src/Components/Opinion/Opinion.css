@@ -30,7 +30,6 @@
     justify-content: center;
     background-color: white;
     padding: 10px;
-    width: 100%;
     align-items: center;
   }
   .container4 .child2 span {
@@ -48,7 +47,6 @@
     transform: rotate(180deg);
   }
   .container4 .child3 {
-    width: 100%;
     display: flex;
     justify-content: space-around;
     background-color: black;
