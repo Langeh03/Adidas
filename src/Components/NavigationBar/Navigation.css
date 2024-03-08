@@ -207,7 +207,6 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "adihausdinbold";
 }
 .container .nav-wrapper .nav .main_nav .target .notification {
   font-size: 12px;
@@ -244,6 +243,9 @@ button {
   letter-spacing: 1px;
   line-height: 24px;
 }
+.container .nav-wrapper .nav .main_nav .target1 {
+  font-family: "adihausdinbold";
+}
 .container .nav-wrapper .nav .main_nav .menu {
   position: relative;
   top: -10px;
@@ -272,6 +274,7 @@ button {
   letter-spacing: 1.87px;
   line-height: 16px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .container .nav-wrapper .nav .main_nav .menu-mid .menu-mid-wrapper .outer:hover {

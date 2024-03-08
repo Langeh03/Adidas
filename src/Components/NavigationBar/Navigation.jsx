@@ -81,7 +81,7 @@ function Nav() {
                         </a>
                         <ul className='menu-mid'>
                             <li className='menu-mid-wrapper'>
-                                <a className='target outer' href="#">MEN</a>
+                                <a className='target1 outer' href="#">MEN</a>
                                 <div className='drop-down men'>
                                     <ul className='first-child child'>
                                         <li className='first-child-wrapper main-section'>
@@ -594,7 +594,7 @@ function Nav() {
                                 </div>
                             </li>
                             <li className='menu-mid-wrapper'>
-                                <a className='target outer' href="#">WOMEN</a>
+                                <a className='target1 outer' href="#">WOMEN</a>
                                 <div className='drop-down women'>
                                     <ul className='first-child child'>
                                         <li className='first-child-wrapper main-section'>
@@ -1149,7 +1149,7 @@ function Nav() {
                                 </div>
                             </li>
                             <li className='menu-mid-wrapper'>
-                                <a className='target outer' href="#">KIDS</a>
+                                <a className='target1 outer' href="#">KIDS</a>
                                 <div className='drop-down kids'>
                                     <ul className='first-child child'>
                                         <li className='first-child-wrapper main-section'>
