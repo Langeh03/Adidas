@@ -51,26 +51,13 @@
   padding-bottom: 32px;
 }
 .container7 ul::-webkit-scrollbar {
-  height: 1vh;
+  height: 4px;
 }
 .container7 ul::-webkit-scrollbar-track {
   background-color: #eceff1;
-  margin: 0 48px;
-  width: 1vw;
 }
 .container7 ul::-webkit-scrollbar-thumb {
-  background-color: #eceff1;
-  border-radius: 10px;
-}
-.container7 ul:hover::-webkit-scrollbar-thumb {
   background-color: #000000;
-}
-@supports (scrollbar-color: #000000 #eceff1) {
-  .container7 ul {
-    scrollbar-color: #000000 #eceff1;
-    scrollbar-width: thin;
-    scroll-margin: 0 48px;
-  }
 }
 .container7 ul li {
   cursor: pointer;
@@ -127,5 +114,51 @@
 }
 .container7 ul li section .caption .target {
   color: #767677;
-  margin: 5px 5px 0 0;
+  margin: 5px 5px 20px 0;
+}
+
+@media only screen and (max-width: 1119px) {
+  .container7 ul {
+    gap: 8px;
+  }
+  .container7 ul li section .holder {
+    width: 208px;
+  }
+  .container7 ul li section .holder .heart {
+    top: 5px;
+    right: 3px;
+  }
+}
+@media only screen and (max-width: 959px) {
+  .container7 ul li section .holder {
+    width: 316px;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .container7 {
+    margin: 0 30px 40px;
+    padding: 0 2px;
+  }
+  .container7 header .wrapper {
+    flex-direction: column;
+  }
+  .container7 header .wrapper a {
+    justify-content: flex-start;
+    margin-top: 16px;
+  }
+  .container7 ul li section .holder {
+    width: 163px;
+  }
+  .container7 ul li section .holder .price {
+    font-size: 12px;
+  }
+  .container7 ul li section .caption p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+@media only screen and (max-width: 389px) {
+  .container7 {
+    margin: 0 14px 40px;
+  }
 }/*# sourceMappingURL=Arrivals.css.map */
