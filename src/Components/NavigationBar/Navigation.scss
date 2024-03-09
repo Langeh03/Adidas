@@ -47,6 +47,10 @@ button{
     padding: 0;
 }
 
+p{
+    margin: 0;
+}
+
 .container {
     .nav-wrapper {
         .ads{
@@ -435,6 +439,10 @@ button{
                                 display: flex;
                             }
                         }
+                    }
+                    .target1{
+                        width: 24px;
+                        height: 27px;
                     }
                 }
             }

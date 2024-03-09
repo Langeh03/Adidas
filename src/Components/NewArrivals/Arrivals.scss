@@ -1,0 +1,142 @@
+.container7 {
+    margin: 0 60px 40px ;
+    padding: 0 4px;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    header {
+        .wrapper {
+            margin-bottom: 32px;
+            display: flex;
+            .buttons {
+                display: flex;
+                justify-content: flex-start;
+                gap: 8px;
+                button{
+                    padding: 12px;
+                    font-size: 16px;
+                    font-family: 'adihausdinbold';
+                    line-height: 23px;
+                    display: flex;
+                    align-items: center;
+                    height: 44px;
+                }
+                .child1{
+                    color: #ffffff;
+                    background-color: #000000;
+                }
+                .child2{
+                    color: #000000;
+                    background-color: #ffffff;
+                    border: #000000 solid 1px;
+                }
+            }
+            a{
+                display: flex;
+                justify-content: flex-end;
+                flex-basis: 0;
+                flex-grow: 1;
+                text-decoration: underline;
+                font-size: 18px;
+                align-items: end;
+            }
+        }
+    }
+
+    ul {
+        position: relative;
+        scroll-padding: calc(24px * 2);
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        display: flex;
+        gap: 10px;
+        padding-bottom: 32px;
+        &::-webkit-scrollbar {
+            height: 1vh;
+        }
+        &::-webkit-scrollbar-track {
+            background-color: #eceff1;
+            margin: 0 48px;
+            width: 1vw;
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: #eceff1;
+            border-radius: 10px;
+        }
+    
+        &:hover {
+            &::-webkit-scrollbar-thumb {
+                background-color: #000000;
+            }
+        }
+
+        @supports (scrollbar-color: #000000 #eceff1){
+            scrollbar-color: #000000 #eceff1;
+            scrollbar-width: thin;
+            scroll-margin: 0 48px;
+        }
+
+        li {
+            cursor: pointer;
+            section {
+                height: fit-content;
+                width: 100%;
+                position: relative;
+                &:hover{
+                    //outline: -webkit-focus-ring-color auto 1px;
+                    .price{
+                        margin-bottom: 5px;
+                        transition: 0.30s;
+                    }
+                }
+                
+                .holder {
+                    width: 278px;;
+                    height: 100%;
+                    position: relative;
+    
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                        object-fit: cover;
+                        transition: opacity .5s ease .3s;
+                        will-change: opacity;
+                    }
+                    .heart{
+                        position: absolute;
+                        top: 10px;
+                        right: 10px;
+                        svg{
+                            width: 24px;
+                            height: 27px;
+                        }
+                    }
+                    .price{
+                        position: absolute;
+                        font-size: 16px;
+                        padding: 2px 5px;
+                        left: 5px;
+                        bottom: 0;
+                        background-color: white;
+                    }
+    
+                }
+    
+                .caption {
+                    padding-left: 10px;
+                    position: relative;
+                    p {
+                        font-size: 16px;
+                        line-height: 22px;
+                        margin-top: 10px;
+                    }
+                    .target{
+                        color: #767677;
+                        margin: 5px 5px 0 0;
+                    }
+                }
+            }
+        }
+    }
+}

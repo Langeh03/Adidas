@@ -43,6 +43,10 @@ button {
   padding: 0;
 }
 
+p {
+  margin: 0;
+}
+
 .container .nav-wrapper .ads .adsSection {
   background-color: black;
   color: white;
@@ -418,6 +422,10 @@ button {
 }
 .container .nav-wrapper .nav .main_nav .min-menu .shop-bag:hover .empty-promt {
   display: flex;
+}
+.container .nav-wrapper .nav .main_nav .min-menu .target1 {
+  width: 24px;
+  height: 27px;
 }
 .container .mobile-menu {
   display: none;
