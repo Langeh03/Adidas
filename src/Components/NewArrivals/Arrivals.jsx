@@ -1,6 +1,6 @@
 import './Arrivals.css'
 import Products from '../../DB/Products'
-import Card from './Card';
+import Card from '../Card';
 
 function Arrivals(){
 

@@ -86,8 +86,6 @@
   display: block;
   -o-object-fit: cover;
      object-fit: cover;
-  transition: opacity 0.5s ease 0.3s;
-  will-change: opacity;
 }
 .container7 ul li section .holder .heart {
   position: absolute;
@@ -118,6 +116,9 @@
 .container7 ul li section .caption .target {
   color: #767677;
   margin: 5px 5px 20px 0;
+}
+.container7 ul li section .caption .shop {
+  display: none;
 }
 
 @media only screen and (max-width: 1289px) {

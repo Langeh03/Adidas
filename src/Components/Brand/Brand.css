@@ -1,0 +1,94 @@
+.container8 {
+  margin: 0 60px 80px;
+  padding: 0 4px;
+}
+.container8 ul {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  /*overflow-x: scroll;
+  scrollbar-width: none;*/
+}
+.container8 ul li {
+  width: calc((100% - 40px) / 4);
+  cursor: pointer;
+}
+.container8 ul li section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+.container8 ul li section .holder {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container8 ul li section .holder img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container8 ul li section .holder .heart {
+  display: none;
+}
+.container8 ul li section .holder .price {
+  display: none;
+}
+.container8 ul li section .caption {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+  height: 122px;
+}
+.container8 ul li section .caption p {
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 10px;
+  font-family: "adihausdinbold";
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.container8 ul li section .caption .target {
+  padding-top: 0;
+  font-size: 13px;
+  font-family: "adihausdin";
+  line-height: 17px;
+  margin: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.container8 ul li section .caption .shop {
+  flex: 1 1;
+  display: flex;
+  align-items: flex-end;
+}
+.container8 ul li section .caption .shop button {
+  margin-top: 17px;
+  font-size: 14px;
+  font-family: "adihausdinbold";
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
+.container8 ul li section .caption .shop button:hover {
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 959px) {
+  .container81 ul {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .container81 ul li {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Brand.css.map */

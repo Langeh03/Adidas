@@ -1,5 +1,3 @@
-
-
 function Card({img, title, category, price}){
     return(
         <li>
@@ -15,6 +13,9 @@ function Card({img, title, category, price}){
                 <div class="caption">
                     <p>{ title }</p>
                     <p className='target'>{ category }</p>
+                    <div className="shop">
+                        <button>SHOP NOW</button>
+                    </div>
                 </div>
             </section>
         </li>

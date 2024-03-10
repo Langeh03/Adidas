@@ -6,6 +6,7 @@ import Opinion from "./Components/Opinion/Opinion"
 import Promotion from "./Components/Promotion/Promotion";
 import Footer from "./Components/Footer/Footer";
 import Arrivals from "./Components/NewArrivals/Arrivals";
+import Brand from "./Components/Brand/Brand";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Advert/>
         <Main/>
         <Arrivals/>
+        <Brand/>
         <About/>
         <Opinion/>
         <Promotion/>

@@ -1,5 +1,3 @@
-import heart from '../Assets/heart.svg'
-
 const products =[
     {
         id: 1,
@@ -7,7 +5,6 @@ const products =[
         title: "Samba OG Shoes",
         category: "Shoes",
         price: "$100",
-        heart: {heart},
     },
     {
         id: 2,
@@ -15,7 +12,6 @@ const products =[
         title: "Ultraboost 1.0 Shoes",
         category: "Shoes",
         price: "$190",
-        heart: {heart},
     },
     {
         id: 3,
@@ -23,7 +19,6 @@ const products =[
         title: "Samba OG Shoes",
         category: "Shoes",
         price: "$150",
-        heart: {heart},
     },
     {
         id: 4,
@@ -31,7 +26,6 @@ const products =[
         title: "Handball Spezial Shoes",
         category: "Shoes",
         price: "$110",
-        heart: {heart},
     },
     {
         id: 5,
@@ -39,7 +33,6 @@ const products =[
         title: "Gazelle Shoes",
         category: "Shoes",
         price: "$100",
-        heart: {heart},
     },
     {
         id: 6,
@@ -47,7 +40,6 @@ const products =[
         title: "Sambae x KSENIASCHNAIDER Shoes",
         category: "Shoes",
         price: "$120",
-        heart: {heart},
     },
     {
         id: 7,
@@ -55,7 +47,6 @@ const products =[
         title: "Ultraboost 1.0 Shoes",
         category: "Shoes",
         price: "$190",
-        heart: {heart},
     },
     {
         id: 8,
@@ -63,7 +54,6 @@ const products =[
         title: "Gazelle Bold Shoes",
         category: "Shoes",
         price: "$120",
-        heart: {heart},
     },
     {
         id: 9,
@@ -71,7 +61,6 @@ const products =[
         title: "Gazelle Bold Shoes",
         category: "Shoes",
         price: "$120",
-        heart: {heart},
     },
     {
         id: 10,
@@ -79,7 +68,6 @@ const products =[
         title: "Ultraboost 1.0 Shoes",
         category: "Shoes",
         price: "$190",
-        heart: {heart},
     },
     {
         id: 11,
@@ -87,7 +75,6 @@ const products =[
         title: "Samba OG Shoes",
         category: "Shoes",
         price: "$100",
-        heart: {heart},
     },
     {
         id: 12,
@@ -95,7 +82,6 @@ const products =[
         title: "Campus 00s Shoes",
         category: "Shoes",
         price: "$110",
-        heart: {heart},
     },
 ];
 
