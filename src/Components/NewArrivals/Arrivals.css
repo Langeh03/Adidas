@@ -8,10 +8,10 @@
 .container7 header .wrapper {
   margin-bottom: 32px;
   display: flex;
+  justify-content: space-between;
 }
 .container7 header .wrapper .buttons {
   display: flex;
-  justify-content: flex-start;
   gap: 8px;
 }
 .container7 header .wrapper .buttons button {
@@ -22,6 +22,7 @@
   display: flex;
   align-items: center;
   height: 44px;
+  cursor: pointer;
 }
 .container7 header .wrapper .buttons .child1 {
   color: #ffffff;
@@ -32,11 +33,13 @@
   background-color: #ffffff;
   border: #000000 solid 1px;
 }
+.container7 header .wrapper .buttons .child2:hover {
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+}
 .container7 header .wrapper a {
-  display: flex;
-  justify-content: flex-end;
-  flex-basis: 0;
-  flex-grow: 1;
+  display: inline-flex;
   text-decoration: underline;
   font-size: 18px;
   align-items: end;
@@ -117,7 +120,7 @@
   margin: 5px 5px 20px 0;
 }
 
-@media only screen and (max-width: 1119px) {
+@media only screen and (max-width: 1289px) {
   .container7 ul {
     gap: 8px;
   }
@@ -134,7 +137,7 @@
     width: 316px;
   }
 }
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 759px) {
   .container7 {
     margin: 0 30px 40px;
     padding: 0 2px;
@@ -143,7 +146,6 @@
     flex-direction: column;
   }
   .container7 header .wrapper a {
-    justify-content: flex-start;
     margin-top: 16px;
   }
   .container7 ul li section .holder {

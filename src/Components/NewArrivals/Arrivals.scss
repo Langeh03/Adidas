@@ -8,9 +8,9 @@
         .wrapper {
             margin-bottom: 32px;
             display: flex;
+            justify-content: space-between;
             .buttons {
                 display: flex;
-                justify-content: flex-start;
                 gap: 8px;
                 button{
                     padding: 12px;
@@ -20,6 +20,7 @@
                     display: flex;
                     align-items: center;
                     height: 44px;
+                    cursor: pointer;
                 }
                 .child1{
                     color: #ffffff;
@@ -29,13 +30,15 @@
                     color: #000000;
                     background-color: #ffffff;
                     border: #000000 solid 1px;
+                    &:hover{
+                        color: #ffffff;
+                        background-color: #000000;
+                        border: none;
+                    }
                 }
             }
             a{
-                display: flex;
-                justify-content: flex-end;
-                flex-basis: 0;
-                flex-grow: 1;
+                display: inline-flex;
                 text-decoration: underline;
                 font-size: 18px;
                 align-items: end;
@@ -125,7 +128,7 @@
     }
 }
 
-@media only screen and (max-width: 1119px){
+@media only screen and (max-width: 1289px){
     .container7 {
         ul {
             gap: 8px;
@@ -158,7 +161,7 @@
     }
 }
 
-@media only screen and (max-width: 769px){
+@media only screen and (max-width: 759px){
     .container7 {
         margin: 0 30px 40px ;
         padding: 0 2px;
@@ -166,7 +169,6 @@
             .wrapper {
                 flex-direction: column;
                 a{
-                    justify-content: flex-start;
                     margin-top: 16px;
                 }
             }
