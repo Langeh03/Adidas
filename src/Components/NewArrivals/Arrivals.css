@@ -137,6 +137,9 @@
   .container7 ul li section .holder {
     width: 316px;
   }
+  .container7 ul li section .caption .target {
+    margin-bottom: 0;
+  }
 }
 @media only screen and (max-width: 759px) {
   .container7 {
