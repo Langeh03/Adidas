@@ -7,6 +7,7 @@ import Promotion from "./Components/Promotion/Promotion";
 import Footer from "./Components/Footer/Footer";
 import Arrivals from "./Components/NewArrivals/Arrivals";
 import Brand from "./Components/Brand/Brand";
+import Popular from "./Components/Popular/Popular";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Main/>
         <Arrivals/>
         <Brand/>
+        <Popular/>
         <About/>
         <Opinion/>
         <Promotion/>
