@@ -24,3 +24,5 @@ const popular = [
         title: "nmd",
     },
 ]
+
+export default popular;

@@ -18,7 +18,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: flex-end;
-                width: 33.3333333333%;
+                width: 32.3%;
                 padding: 0 4px;
                 a{
                     display: inline-flex;
@@ -41,5 +41,42 @@
                 }
             }
         }
+    }
+}
+
+@media only screen and (max-width: 959px){
+    .container9{
+        margin-bottom: 40px;
+        .wrapper{
+            .header{
+                h2{
+                    font-size: 22px;
+                }
+            }
+            .content{
+                width: 100%;
+                margin-top: 8px;
+                .child{
+                    width: 100%;
+                    margin-top: 24px;
+                    a{
+                        font-size: 36px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 759px){
+    .container9{
+        margin: 0 30px 40px;
+    }
+}
+
+@media only screen and (max-width: 389px){
+    .container9{
+        margin: 0 14px 40px;
     }
 }
