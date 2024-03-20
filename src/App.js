@@ -9,10 +9,12 @@ import Arrivals from "./Components/NewArrivals/Arrivals";
 import Brand from "./Components/Brand/Brand";
 import Popular from "./Components/Popular/Popular";
 import Support from "./Components/Support/Support";
+import Feedback from "./Components/Feedback/Feedback";
 
 function App() {
   return (
       <>
+        <Feedback/>
         <Nav/>
         <Advert/>
         <Main/>
