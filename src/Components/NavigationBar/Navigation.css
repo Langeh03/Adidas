@@ -393,13 +393,6 @@ p {
   height: 32px;
   padding: 0 35px 0 10px;
   border: none;
-  /*&:target{
-      border: #000 solid 1px;
-      border-radius: 0;
-      &::placeholder{
-          display: none;
-      }
-  }*/
 }
 .container .nav-wrapper .nav .main_nav .min-menu div input::-moz-placeholder {
   color: black;
