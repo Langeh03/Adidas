@@ -1,5 +1,4 @@
 import './Footer.css'
-import usflg from '../../Assets/us-flg.png'
 import icon from '../../Assets/icon.svg'
 
 function Footer() {
@@ -8,7 +7,7 @@ function Footer() {
             <ul>
                 <li className='target'>
                     <button>
-                        <img src={usflg} />
+                        <img src="https://adl-foundation.adidas.com/flags/1-2-1/us.svg" />
                         <span>United States</span>
                     </button>
                 </li>

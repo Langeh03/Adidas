@@ -1,5 +1,5 @@
 import './Promotion.css'
-import arrow from '../../Assets/arrow.svg'
+import { HiOutlineArrowNarrowRight } from "react-icons/hi"
 
 function Promotion() {
     return (
@@ -7,7 +7,7 @@ function Promotion() {
             <span>JOIN OUR ADICLUB &amp; GET 15% OFF</span>
             <button>
                 <span>SIGN UP FOR FREE</span>
-                <span><img src={ arrow } /></span>
+                <span>< HiOutlineArrowNarrowRight /></span>
             </button>
         </div>
     );

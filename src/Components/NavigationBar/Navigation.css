@@ -80,14 +80,19 @@ p {
   height: -moz-fit-content;
   height: fit-content;
 }
-.container .nav-wrapper .ads .adsSection .adswrapper .holder div span img {
-  width: 2.3em;
+.container .nav-wrapper .ads .adsSection .adswrapper .holder div span svg {
+  width: 1.8em;
+  height: 1.8em;
 }
 .container .nav-wrapper .ads .dropDownSection {
   display: none;
+  position: absolute;
+  width: 100%;
+  top: 0;
   height: -moz-fit-content;
   height: fit-content;
   background-color: white;
+  z-index: 1000;
 }
 .container .nav-wrapper .ads .dropDownSection .ddwrapper .exitbtn {
   display: flex;
@@ -102,21 +107,21 @@ p {
   border: 1px solid black;
 }
 .container .nav-wrapper .ads .dropDownSection .ddwrapper .exitbtn .wrapper span svg {
-  width: 28px;
-  height: 29px;
+  width: 24px;
+  height: 24px;
   cursor: pointer;
-  padding: 10px;
+  padding: 12px;
 }
 .container .nav-wrapper .ads .dropDownSection .ddwrapper .content {
   display: flex;
-  justify-content: flex-start;
-  padding-left: 100px;
-  padding-top: 30px;
+  justify-content: center;
+  padding-top: 25px;
   margin-bottom: 100px;
 }
 .container .nav-wrapper .ads .dropDownSection .ddwrapper .content section {
   width: 300px;
   display: block;
+  margin-right: 20px;
 }
 .container .nav-wrapper .ads .dropDownSection .ddwrapper .content section h4 {
   font-family: "adihausdinbold";
@@ -243,6 +248,7 @@ p {
   justify-content: center;
   align-items: center;
   height: 60px;
+  z-index: 100;
 }
 .container .nav-wrapper .nav .main_nav .target .empty-promt span {
   font-size: 18px;
@@ -426,6 +432,104 @@ p {
 }
 .container .mobile-menu {
   display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  z-index: 150;
+}
+.container .mobile-menu .header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 59px;
+  display: grid;
+  grid-template-columns: 13fr 1fr;
+  align-items: center;
+  border-bottom: 1px solid #eceff1;
+  background-color: white;
+}
+.container .mobile-menu .header a {
+  display: flex;
+  justify-content: center;
+  padding-left: 61px;
+}
+.container .mobile-menu .header a svg {
+  width: 50px;
+  height: 32px;
+}
+.container .mobile-menu .header button {
+  display: flex;
+  justify-content: flex-end;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.container .mobile-menu .header button svg {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  padding: 10px;
+}
+.container .mobile-menu .content {
+  height: calc(100% - 124px);
+  margin-top: 60px;
+  padding: 10px 0;
+  overflow-y: scroll;
+}
+.container .mobile-menu .content ul li span {
+  font-size: 18px;
+  font-family: "adihausdin";
+  line-height: 24px;
+}
+.container .mobile-menu .content ul li button {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  cursor: pointer;
+  padding: 0 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.container .mobile-menu .content ul li button .target {
+  font-family: "adihausdinbold";
+}
+.container .mobile-menu .content ul li button svg {
+  width: 16.5px;
+  height: 16.5px;
+}
+.container .mobile-menu .content ul li a {
+  display: block;
+  padding: 10px 30px;
+}
+.container .mobile-menu .content ul li div {
+  padding: 10px 0;
+}
+.container .mobile-menu .content hr {
+  height: 1px;
+  border: none;
+  margin: 10px 0;
+  background-color: #eceff1;
+  height: 1px;
+}
+.container .mobile-menu .footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  align-items: center;
+  padding: 0 30px;
+  border-top: 1px solid #eceff1;
+  background-color: white;
+}
+.container .mobile-menu .footer img {
+  width: 21px;
+  height: 11px;
+  margin-right: 15px;
 }
 
 @media only screen and (max-width: 1119px) {
@@ -548,103 +652,6 @@ p {
   }
   .container .mobile-menu {
     display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: white;
-  }
-  .container .mobile-menu .header {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 59px;
-    display: grid;
-    grid-template-columns: 13fr 1fr;
-    align-items: center;
-    border-bottom: 1px solid #eceff1;
-    background-color: white;
-  }
-  .container .mobile-menu .header a {
-    display: flex;
-    justify-content: center;
-    padding-left: 61px;
-  }
-  .container .mobile-menu .header a svg {
-    width: 50px;
-    height: 32px;
-  }
-  .container .mobile-menu .header button {
-    display: flex;
-    justify-content: flex-end;
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-  .container .mobile-menu .header button svg {
-    width: 28px;
-    height: 29px;
-    cursor: pointer;
-    padding: 10px;
-  }
-  .container .mobile-menu .content {
-    height: calc(100% - 124px);
-    margin-top: 60px;
-    padding: 10px 0;
-    overflow-y: scroll;
-  }
-  .container .mobile-menu .content ul li span {
-    font-size: 18px;
-    font-family: "adihausdin";
-    line-height: 24px;
-  }
-  .container .mobile-menu .content ul li button {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    height: 45px;
-    cursor: pointer;
-    padding: 0 30px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-  .container .mobile-menu .content ul li button .target {
-    font-family: "adihausdinbold";
-  }
-  .container .mobile-menu .content ul li button img {
-    width: 1.6em;
-    transform: rotate(270deg);
-  }
-  .container .mobile-menu .content ul li a {
-    display: block;
-    padding: 10px 30px;
-  }
-  .container .mobile-menu .content ul li div {
-    padding: 10px 0;
-  }
-  .container .mobile-menu .content hr {
-    height: 1px;
-    border: none;
-    margin: 10px 0;
-    background-color: #eceff1;
-    height: 1px;
-  }
-  .container .mobile-menu .footer {
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 45px;
-    align-items: center;
-    padding: 0 30px;
-    border-top: 1px solid #eceff1;
-    background-color: white;
-  }
-  .container .mobile-menu .footer img {
-    width: 21px;
-    height: 11px;
-    margin-right: 15px;
   }
 }
 @media only screen and (max-width: 599px) {

@@ -2,7 +2,7 @@ import './Advert.css'
 import yeezy from '../../Assets/yeezy.avif'
 import yeezy2 from '../../Assets/yeezy2.avif'
 import yeezy3 from '../../Assets/yeezy3.avif'
-import arrow from '../../Assets/arrow.svg'
+import { HiOutlineArrowNarrowRight } from "react-icons/hi"
 
 function Advert() {
     return(
@@ -20,7 +20,7 @@ function Advert() {
                         </div>
                         <div className='child2'>
                             <div className='wrapper2'>
-                                <a href="#">EXPLORE MORE<span><img src={ arrow } /></span></a>   
+                                <a href="#">EXPLORE MORE<span>< HiOutlineArrowNarrowRight /></span></a>   
                             </div>                    
                         </div>
                     </div>

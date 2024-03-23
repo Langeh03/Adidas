@@ -42,9 +42,9 @@
     margin: 0;
     height: 27px;
   }
-  .container4 .child2 .target img {
+  .container4 .child2 .target svg {
     width: 24px;
-    transform: rotate(180deg);
+    height: 24px;
   }
   .container4 .child3 {
     display: flex;

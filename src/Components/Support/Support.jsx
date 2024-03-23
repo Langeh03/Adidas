@@ -1,4 +1,6 @@
 import './Support.css'
+import { FaTiktok, FaInstagram, FaFacebookF, FaYoutube, FaTwitter, FaPinterestP } from "react-icons/fa"
+
 
 function Support() {
     return(
@@ -12,10 +14,10 @@ function Support() {
                         <li><a href="#">Accessories</a></li>
                         <li><a href="#">Gift Cards</a></li>
                         <li><div></div></li>
-                        <li><a href="#">New Aarrivals</a></li>
+                        <li><a href="#">New Arrivals</a></li>
                         <li><a href="#">Best Sellers</a></li>
                         <li><a href="#">Release Dates</a></li>
-                        <li><a href="#">Sales</a></li>
+                        <li><a href="#">Sale</a></li>
                     </ul>
                 </li>
                 <li>
@@ -30,7 +32,7 @@ function Support() {
                         <li><a href="#">Baseball</a></li>
                         <li><a href="#">Tennis</a></li>
                         <li><a href="#">Skateboarding</a></li>
-                        <li><a href="#">Traning</a></li>
+                        <li><a href="#">Training</a></li>
                     </ul>
                 </li>
                 <li>
@@ -53,7 +55,7 @@ function Support() {
                     <h5>support</h5>
                     <ul>
                         <li><a href="#">Help</a></li>
-                        <li><a href="#">Returens & Exchanges</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
                         <li><a href="#">Shipping</a></li>
                         <li><a href="#">Order Tracker</a></li>
                         <li><a href="#">Store Locator</a></li>
@@ -89,12 +91,12 @@ function Support() {
                 <li>
                     <h5 className='target'>follow us</h5>
                     <ul>
-                        <li><a href="#">So</a></li>
-                        <li><a href="#">Ru</a></li>
-                        <li><a href="#">Ba</a></li>
-                        <li><a href="#">Fo</a></li>
-                        <li><a href="#">Ou</a></li>
-                        <li><a href="#">Go</a></li>
+                        <li><a href="#"><span>< FaFacebookF /></span></a></li>
+                        <li><a href="#"><span>< FaInstagram /></span></a></li>
+                        <li><a href="#"><span>< FaTwitter /></span></a></li>
+                        <li><a href="#"><span>< FaPinterestP /></span></a></li>
+                        <li><a href="#"><span>< FaTiktok /></span></a></li>
+                        <li><a href="#"><span>< FaYoutube /></span></a></li>
                     </ul>
                 </li>
             </ul>

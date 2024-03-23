@@ -1,5 +1,5 @@
 import './Opinion.css'
-import dd2 from '../../Assets/dropdown2.png'
+import { IoIosArrowUp } from "react-icons/io"
 
 function Count() {
     return (
@@ -10,7 +10,7 @@ function Count() {
                 <div></div>
             </div>
             <a href="#navigation" className='child2'>
-                <span className='target'><img src={dd2} /></span>
+                <span className='target'>< IoIosArrowUp /></span>
                 <span>Back to top</span>
             </a>
             <div className="child3">

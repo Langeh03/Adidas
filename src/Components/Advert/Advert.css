@@ -93,8 +93,9 @@
 .container6 .wrapper .content .wrapper1 .child2 .wrapper2 a span {
   height: 24px;
 }
-.container6 .wrapper .content .wrapper1 .child2 .wrapper2 a span img {
+.container6 .wrapper .content .wrapper1 .child2 .wrapper2 a span svg {
   width: 24px;
+  height: 24px;
   margin-left: 10px;
 }
 

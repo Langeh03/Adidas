@@ -53,7 +53,7 @@
         scroll-snap-type: x mandatory;
         display: flex;
         gap: 10px;
-        padding-bottom: 32px;
+        padding: 1px 1px 32px 1px;
         &::-webkit-scrollbar {
             height: 4px;
         }
@@ -70,7 +70,8 @@
                 width: 100%;
                 position: relative;
                 &:hover{
-                    //outline: -webkit-focus-ring-color auto 1px;
+                    border: #000000 solid 1px;
+                    margin: -1px;
                     .price{
                         margin-bottom: 5px;
                         transition: 0.30s;

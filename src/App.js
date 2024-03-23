@@ -16,7 +16,6 @@ function App() {
       <>
         <Feedback/>
         <Nav/>
-        <Advert/>
         <Main/>
         <Arrivals/>
         <Brand/>

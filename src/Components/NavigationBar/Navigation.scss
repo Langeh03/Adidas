@@ -84,8 +84,9 @@ p{
                             span{
                                 width: fit-content;
                                 height: fit-content;
-                                img {
-                                    width: 2.3em;
+                                svg {
+                                    width: 1.8em;
+                                    height: 1.8em;
                                 }
                             }
                         }
@@ -94,8 +95,12 @@ p{
             }
             .dropDownSection{
                 display: none;
+                position: absolute;
+                width: 100%;
+                top: 0;
                 height: fit-content;
                 background-color: white;
+                z-index: 1000;
                 .ddwrapper{
                     .exitbtn{
                         display: flex;
@@ -109,23 +114,23 @@ p{
                             border: 1px solid black;
                             span{
                                 svg{
-                                    width: 28px;
-                                    height: 29px;
+                                    width: 24px;
+                                    height: 24px;
                                     cursor: pointer;
-                                    padding: 10px;
+                                    padding: 12px;
                                 }
                             }
                         }
                     }
                     .content{
                         display: flex;
-                        justify-content: flex-start;
-                        padding-left: 100px;
-                        padding-top: 30px;
+                        justify-content: center;
+                        padding-top: 25px;
                         margin-bottom: 100px;
                         section{
                             width: 300px;
                             display: block;
+                            margin-right: 20px;
                             h4{
                                 font-family: 'adihausdinbold';
                                 font-size: 16px;
@@ -255,6 +260,7 @@ p{
                         justify-content: center;
                         align-items: center;
                         height: 60px;
+                        z-index: 100;
                         span{
                             font-size: 18px;
                             font-family: 'adineueProBold';
@@ -447,6 +453,107 @@ p{
     }
     .mobile-menu{
         display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: white;
+        z-index: 150;
+        .header{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 59px;
+            display: grid;
+            grid-template-columns: 13fr 1fr;
+            align-items: center;
+            border-bottom: 1px solid #eceff1;
+            background-color: white;
+            a {
+                display: flex;
+                justify-content: center;
+                padding-left: 61px;
+                svg{
+                    width: 50px;
+                    height: 32px;
+                }
+            }
+            button{
+                display: flex;
+                justify-content: flex-end;
+                width: fit-content;
+                svg{
+                    width: 26px;
+                    height: 26px;
+                    cursor: pointer;
+                    padding: 10px;
+                }
+            }
+        }
+        .content{
+            height: calc(100% - 124px);
+            margin-top: 60px;
+            padding: 10px 0;
+            overflow-y: scroll;
+            ul{
+                li{
+                    span{
+                        font-size: 18px;
+                        font-family: 'adihausdin';
+                        line-height: 24px;
+                    }
+                    button{
+                        display: flex;
+                        width: 100%;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 45px;
+                        cursor: pointer;
+                        padding: 0 30px;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        .target{
+                            font-family: 'adihausdinbold';
+                        }
+                        svg{
+                            width: 16.5px;
+                            height: 16.5px;
+                        }
+                    }
+                    a{
+                        display: block;
+                        padding: 10px 30px;
+                    }
+                    div{
+                        padding: 10px 0;
+                    }
+                }
+            }
+            hr{
+                height: 1px;
+                border: none;
+                margin: 10px 0;
+                background-color:  #eceff1;
+                height: 1px;
+            }
+        }
+        .footer{
+            display: flex;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 45px;
+            align-items: center;
+            padding: 0 30px;
+            border-top: 1px solid #eceff1;
+            background-color: white;
+            img{
+                width: 21px;
+                height: 11px;
+                margin-right: 15px;
+            }
+        }
     }
 }
 
@@ -619,106 +726,6 @@ p{
         }
         .mobile-menu{
             display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100vh;
-            background: white;
-            .header{
-                position: absolute;
-                top: 0;
-                width: 100%;
-                height: 59px;
-                display: grid;
-                grid-template-columns: 13fr 1fr;
-                align-items: center;
-                border-bottom: 1px solid #eceff1;
-                background-color: white;
-                a {
-                    display: flex;
-                    justify-content: center;
-                    padding-left: 61px;
-                    svg{
-                        width: 50px;
-                        height: 32px;
-                    }
-                }
-                button{
-                    display: flex;
-                    justify-content: flex-end;
-                    width: fit-content;
-                    svg{
-                        width: 28px;
-                        height: 29px;
-                        cursor: pointer;
-                        padding: 10px;
-                    }
-                }
-            }
-            .content{
-                height: calc(100% - 124px);
-                margin-top: 60px;
-                padding: 10px 0;
-                overflow-y: scroll;
-                ul{
-                    li{
-                        span{
-                            font-size: 18px;
-                            font-family: 'adihausdin';
-                            line-height: 24px;
-                        }
-                        button{
-                            display: flex;
-                            width: 100%;
-                            justify-content: space-between;
-                            align-items: center;
-                            height: 45px;
-                            cursor: pointer;
-                            padding: 0 30px;
-                            letter-spacing: 2px;
-                            text-transform: uppercase;
-                            .target{
-                                font-family: 'adihausdinbold';
-                            }
-                            img{
-                                width: 1.6em;
-                                transform: rotate(270deg);
-                            }
-                        }
-                        a{
-                            display: block;
-                            padding: 10px 30px;
-                        }
-                        div{
-                            padding: 10px 0;
-                        }
-                    }
-                }
-                hr{
-                    height: 1px;
-                    border: none;
-                    margin: 10px 0;
-                    background-color:  #eceff1;
-                    height: 1px;
-                }
-            }
-            .footer{
-                display: flex;
-                position: absolute;
-                bottom: 0;
-                width: 100%;
-                height: 45px;
-                align-items: center;
-                padding: 0 30px;
-                border-top: 1px solid #eceff1;
-                background-color: white;
-                img{
-                    width: 21px;
-                    height: 11px;
-                    margin-right: 15px;
-                }
-            }
         }
     }
     

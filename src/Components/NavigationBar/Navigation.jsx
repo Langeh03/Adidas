@@ -1,10 +1,8 @@
 import './Navigation.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faXmark } from '@fortawesome/free-solid-svg-icons'
-import { faHeart } from '@fortawesome/free-regular-svg-icons'
-import usflg from '../../Assets/us-flg.png'
-import dropdown from '../../Assets/dropdown.png'
-import dropdown2 from '../../Assets/dropdown2.png'
+import { IoIosArrowDown } from "react-icons/io"
+import { CgClose } from "react-icons/cg";
+import { AiOutlineClose } from "react-icons/ai"
+import { IoIosArrowForward } from "react-icons/io"
 
 function Nav() {
     return(
@@ -16,7 +14,8 @@ function Nav() {
                             <div className="holder">
                                 <div>
                                     <p>FREE STANDARD SHIPPING WITH ADICLUB</p>
-                                    <span><img src={ dropdown } /></span></div>
+                                    <span>< IoIosArrowDown /></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -25,11 +24,18 @@ function Nav() {
                             <div className='exitbtn'>
                                 <div className='wrapper'>
                                     <span>
-                                        <FontAwesomeIcon icon={faXmark} />
+                                        < CgClose />
                                     </span>
                                 </div>
                             </div>
                             <div className="content">
+                                <section>
+                                    <h4>SPEND $100, SAVE $30</h4>
+                                    <p> Grab your favorite 3-Stripes looks for the season ahead! Save $30 when you spend $100 by using code SAVE30 at checkout to score on tons of items.</p>
+                                    <div>
+                                    <a href="#"><span>SHOP NOW</span></a>
+                                    </div>
+                                </section>
                                 <section>
                                     <h4>FREE STANDARD SHIPPING WITH ADICLUB</h4>
                                     <p>Sign up for adiClub to enjoy free standard shipping and earn points on every order.</p>
@@ -52,7 +58,7 @@ function Nav() {
                         <li className='target'>
                             <div>
                                 <button>
-                                    <img src={usflg} />
+                                    <img src="https://adl-foundation.adidas.com/flags/1-2-1/us.svg" />
                                 </button>
                             </div>
                         </li>
@@ -2278,7 +2284,7 @@ function Nav() {
                         </svg>
                     </a>
                     <button>
-                        <FontAwesomeIcon icon={faXmark} />
+                        < AiOutlineClose />
                     </button>
                 </div>
                 <div className='content'>
@@ -2286,31 +2292,31 @@ function Nav() {
                         <li>
                             <button>
                                 <span className='target'>MEN</span>
-                                <img src={ dropdown2 } />
+                                < IoIosArrowForward />
                             </button>
                         </li>
                         <li>
                             <button>
                                 <span className='target'>WOMEN</span>
-                                <img src={ dropdown2 } />
+                                < IoIosArrowForward />
                             </button>
                         </li>
                         <li>
                             <button>
                                 <span className='target'>KIDS</span>
-                                <img src={ dropdown2 } />
+                                < IoIosArrowForward />
                             </button>
                         </li>
                         <li>
                             <button>
                                 <span>3 STRIPE LIFE</span>
-                                <img src={ dropdown2 } />
+                                < IoIosArrowForward />
                             </button>
                         </li>
                         <li>
                             <button>
                                 <span>SALE</span>
-                                <img src={ dropdown2 } />
+                                < IoIosArrowForward />
                             </button>
                         </li>
                     </ul>
@@ -2344,7 +2350,7 @@ function Nav() {
                 </div>
                 <ul className='footer'>
                     <a href="#">
-                        <img src={usflg} />
+                        <img src="https://adl-foundation.adidas.com/flags/1-2-1/us.svg" />
                         <span>United States</span>
                     </a>
                 </ul>

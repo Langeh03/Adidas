@@ -3,7 +3,7 @@
     text-align: center;
     background-color: #ede734;
     span{
-        display: inline-block;
+        display: initial;
         vertical-align: middle;
         margin: 0 40px 15px 0;
         font-family: 'adineueProBold';
@@ -48,10 +48,19 @@
             font-size: 14px;
             margin: 0;
             height: 30px;
-            img{
-                width: 30px;
+            svg{
+                width: 28px;
+                height: 29px;
                 margin-left: 15px;
             }
+        }
+    }
+}
+
+@media only screen and (max-width: 959px){
+    .container3{
+        span{
+            display: grid;
         }
     }
 }

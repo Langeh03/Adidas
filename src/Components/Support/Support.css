@@ -29,6 +29,21 @@
   font-size: 14px;
   line-height: 24px;
 }
+.container10 .desktop-view li ul li a span {
+  display: inline-flex;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  margin-bottom: 7px;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #101010;
+}
+.container10 .desktop-view li ul li a span svg {
+  color: #ffffff;
+  width: 16px;
+  height: 16px;
+}
 .container10 .desktop-view li ul li a:hover {
   text-decoration: underline;
 }

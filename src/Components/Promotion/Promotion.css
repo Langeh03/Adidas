@@ -4,7 +4,7 @@
   background-color: #ede734;
 }
 .container3 span {
-  display: inline-block;
+  display: initial;
   vertical-align: middle;
   margin: 0 40px 15px 0;
   font-family: "adineueProBold";
@@ -51,7 +51,14 @@
   margin: 0;
   height: 30px;
 }
-.container3 button span img {
-  width: 30px;
+.container3 button span svg {
+  width: 28px;
+  height: 29px;
   margin-left: 15px;
+}
+
+@media only screen and (max-width: 959px) {
+  .container3 span {
+    display: grid;
+  }
 }/*# sourceMappingURL=Promotion.css.map */
