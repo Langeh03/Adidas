@@ -5,9 +5,10 @@ import Card from '../Card';
 function Arrivals(){
 
     function renderProducts(products){
-        return Products.map(({id, img, title, category, price}) =>(
+        return Products.map(({id, img, video, title, category, price}) =>(
             <Card key={id}
                 img = {img}
+                video= {null}
                 title = {title}
                 category = {category}
                 price = {price}

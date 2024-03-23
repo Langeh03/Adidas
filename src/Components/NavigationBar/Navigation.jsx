@@ -1,8 +1,12 @@
 import './Navigation.css'
 import { IoIosArrowDown } from "react-icons/io"
-import { CgClose } from "react-icons/cg";
+import { CgClose } from "react-icons/cg"
 import { AiOutlineClose } from "react-icons/ai"
 import { IoIosArrowForward } from "react-icons/io"
+import { HiOutlineSearch } from "react-icons/hi"
+import { IoSearchSharp } from "react-icons/io5"
+import { TbSearch } from "react-icons/tb"
+import { VscMenu } from "react-icons/vsc"
 
 function Nav() {
     return(
@@ -66,12 +70,7 @@ function Nav() {
                     <div className='main_nav'>
                         <div className='mobile mobile-first'>
                             <button>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none">
-                                    <rect width="24" height="24" fill="white"/>
-                                    <path d="M6 12H18" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M6 15.5H18" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M6 8.5H18" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
+                                < VscMenu />
                             </button>
                             <a href="#">
                                 <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="200.000000pt" height="200.000000pt" viewBox="0 0 200.000000 200.000000" preserveAspectRatio="xMidYMid meet">
@@ -2204,9 +2203,7 @@ function Nav() {
                                 <input type="text" placeholder="Search"/>
                                 <div>
                                     <span>
-                                        <svg aria-hidden="true" class="pre-nav-design-icon" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
-                                            <path stroke="currentColor" stroke-width="1.5" d="M13.962 16.296a6.716 6.716 0 01-3.462.954 6.728 6.728 0 01-4.773-1.977A6.728 6.728 0 013.75 10.5c0-1.864.755-3.551 1.977-4.773A6.728 6.728 0 0110.5 3.75c1.864 0 3.551.755 4.773 1.977A6.728 6.728 0 0117.25 10.5a6.726 6.726 0 01-.921 3.407c-.517.882-.434 1.988.289 2.711l3.853 3.853"></path>
-                                        </svg>
+                                        < TbSearch />
                                     </span>
                                 </div>
                             </div>
@@ -2257,9 +2254,7 @@ function Nav() {
                             </a>
                             <button className='target'>
                                 <span>
-                                    <svg aria-hidden="true" class="pre-nav-design-icon" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
-                                        <path stroke="currentColor" stroke-width="1.5" d="M13.962 16.296a6.716 6.716 0 01-3.462.954 6.728 6.728 0 01-4.773-1.977A6.728 6.728 0 013.75 10.5c0-1.864.755-3.551 1.977-4.773A6.728 6.728 0 0110.5 3.75c1.864 0 3.551.755 4.773 1.977A6.728 6.728 0 0117.25 10.5a6.726 6.726 0 01-.921 3.407c-.517.882-.434 1.988.289 2.711l3.853 3.853"></path>
-                                    </svg>
+                                    < TbSearch />
                                 </span>
                             </button>
                             <a href="#" className='target'>

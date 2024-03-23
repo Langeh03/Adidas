@@ -5,9 +5,10 @@ import Card from '../Card';
 function Brand(){
 
     function rederBrand(brand){
-        return brand.map(({id, img, title, description}) =>(
+        return brand.map(({id, img, video, title, description}) =>(
             <Card key={id}
                 img = {img}
+                video= {video}
                 title = {title}
                 category = {description}
                 price = {null}

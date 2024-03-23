@@ -208,7 +208,7 @@ p {
 }
 .container .nav-wrapper .nav .main_nav span svg {
   width: 21px;
-  height: 24px;
+  height: 20px;
 }
 .container .nav-wrapper .nav .main_nav .mobile {
   display: none;
@@ -235,6 +235,7 @@ p {
   align-items: center;
   border-radius: 50%;
   background-color: #ffd200;
+  animation: moveNotification 2.5s alternate-reverse infinite;
 }
 .container .nav-wrapper .nav .main_nav .target .empty-promt {
   position: absolute;
@@ -398,7 +399,8 @@ p {
   max-width: 153px;
   height: 32px;
   padding: 0 35px 0 10px;
-  border: none;
+  border: 1px solid #ffffff;
+  transition: border ease 1s;
 }
 .container .nav-wrapper .nav .main_nav .min-menu div input::-moz-placeholder {
   color: black;
@@ -409,6 +411,16 @@ p {
   color: black;
   font-family: "adihausdin";
   font-size: 14px;
+}
+.container .nav-wrapper .nav .main_nav .min-menu div input:focus {
+  outline: none;
+  border: 1px solid #767677;
+}
+.container .nav-wrapper .nav .main_nav .min-menu div input:focus::-moz-placeholder {
+  color: #ECEFF1;
+}
+.container .nav-wrapper .nav .main_nav .min-menu div input:focus::placeholder {
+  color: #ECEFF1;
 }
 .container .nav-wrapper .nav .main_nav .min-menu div div {
   cursor: pointer;
@@ -422,6 +434,11 @@ p {
   align-items: center;
   width: -moz-fit-content;
   width: fit-content;
+}
+.container .nav-wrapper .nav .main_nav .min-menu div div span svg {
+  width: 21px;
+  height: 21px;
+  stroke-width: 2.4px;
 }
 .container .nav-wrapper .nav .main_nav .min-menu .shop-bag:hover .empty-promt {
   display: flex;
@@ -612,10 +629,13 @@ p {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    width: 48px;
+    height: 48px;
   }
   .container .nav-wrapper .nav .main_nav .mobile-first button svg {
-    width: 3.5em;
-    height: 3.5em;
+    width: 24px;
+    height: 24px;
+    stroke-width: 0.2px;
   }
   .container .nav-wrapper .nav .main_nav .mobile-first a {
     position: relative;
@@ -650,6 +670,11 @@ p {
     display: flex;
     justify-content: flex-end;
   }
+  .container .nav-wrapper .nav .main_nav .mobile-last button span svg {
+    width: 21px;
+    height: 21px;
+    stroke-width: 2.4px;
+  }
   .container .mobile-menu {
     display: none;
   }
@@ -665,5 +690,22 @@ p {
   .container .nav-wrapper .ads .dropDownSection .ddwrapper .content section {
     width: 559px;
     margin-bottom: 0;
+  }
+}
+@keyframes moveNotification {
+  90% {
+    transform: translateY(0);
+  }
+  95% {
+    transform: translateY(-15px);
+  }
+  97% {
+    transform: translateY(0);
+  }
+  99% {
+    transform: translateY(-7.5px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }/*# sourceMappingURL=Navigation.css.map */

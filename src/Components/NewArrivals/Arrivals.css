@@ -91,6 +91,9 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+.container7 ul li section .holder video {
+  display: none;
+}
 .container7 ul li section .holder .heart {
   position: absolute;
   top: 10px;
