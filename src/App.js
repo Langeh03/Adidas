@@ -1,5 +1,4 @@
 import Nav from "./Components/NavigationBar/Navigation"
-import Advert from "./Components/Advert/Advert";
 import Main from "./Components/Main/Main";
 import About from "./Components/About/About";
 import Opinion from "./Components/Opinion/Opinion"

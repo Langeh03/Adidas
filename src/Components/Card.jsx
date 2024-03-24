@@ -19,7 +19,7 @@ function Card({img, video, title, category, price}){
     return(
         <li>
             <section>
-                <div class="holder">
+                <div className="holder">
                     <img src= { img } />
                     <RenderVideo checkVid={video}/>
                     <span className='heart'>
@@ -28,7 +28,7 @@ function Card({img, video, title, category, price}){
                     </span>
                     <RenderPrice checkPrice={price} />
                 </div>
-                <div class="caption">
+                <div className="caption">
                     <p>{ title }</p>
                     <p className='target'>{ category }</p>
                     <div className="shop">
