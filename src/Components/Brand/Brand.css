@@ -39,9 +39,6 @@
 .container8 ul li section .holder .heart {
   display: none;
 }
-.container8 ul li section .holder .price {
-  display: none;
-}
 .container8 ul li section .caption {
   position: relative;
   display: flex;
