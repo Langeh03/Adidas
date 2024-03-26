@@ -94,12 +94,13 @@ p{
                 }
             }
             .dropDownSection{
-                display: none;
+                display: block;
                 position: absolute;
                 width: 100%;
-                top: 0;
+                top: -135%;
                 height: fit-content;
                 background-color: white;
+                transition: top .5s ease-in-out;
                 z-index: 1000;
                 .ddwrapper{
                     .exitbtn{
@@ -144,6 +145,7 @@ p{
                                 margin: 0;
                                 margin-bottom: 16px;
                                 line-height: 1.4;
+                                
                             }
                             div {
                                 margin: 0;
@@ -172,6 +174,15 @@ p{
                         }
                     }
                 }
+            }
+            .dropDownSection.active {
+                top: 0;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
+            }
+            .dropDownSection.deactivate {
+                animation-iteration-count: 1;
+                animation-fill-mode: backwards;
             }
         }
         .nav{
@@ -586,8 +597,7 @@ p{
         display: none;
         position: fixed;
         inset: 0;
-        background-color: rgba(0,0,0,.3);
-        backdrop-filter: blur(4px);
+        background-color: rgba(0, 0, 0, 0.4);
         z-index: 19;
     }
     .backdrop.active {
@@ -700,6 +710,7 @@ p{
                             padding-left: 60px;
                             padding-top: 126px;
                             margin-bottom: 200px;
+                            flex-flow: column;
                             section{
                                 width: 400px;
                                 margin-bottom: 80px;
@@ -800,8 +811,9 @@ p{
                             padding: 20px 20px 0;
                             margin-bottom: 180px;
                             section{
-                                width: 559px;
-                                margin-bottom: 0;
+                                width: 100%;
+                                margin-right: 0;
+                                margin-bottom: 18px;
                             }
                         }
                         
@@ -815,7 +827,7 @@ p{
 
 @keyframes moveNotification {
     90% {transform: translateY(0);}
-    95% {transform: translateY(-15px);}
+    95% {transform: translateY(-8px);}
     97% {transform: translateY(0);}
     99% {transform: translateY(-7.5px);}
     100% {transform: translateY(0);}

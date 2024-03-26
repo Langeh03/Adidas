@@ -18,12 +18,22 @@ function Nav() {
         document.querySelector('.mobile-menu').className = 'mobile-menu deactivate';
     }
 
+    const openMenu2 = () => {
+        document.querySelector('.backdrop').className = 'backdrop active';
+        document.querySelector('.dropDownSection').className = 'dropDownSection active';
+    };
+
+    const closeMenu2 = () => {
+        document.querySelector('.backdrop').className = 'backdrop deactivate';
+        document.querySelector('.dropDownSection').className = 'dropDownSection deactivate';
+    }
+
     return(
         <div className="container">
             <div className="nav-wrapper">
                 <div className="ads">
                     <div className="adsSection">
-                        <div className="adswrapper">
+                        <div className="adswrapper" onClick={openMenu2}>
                             <div className="holder">
                                 <div>
                                     <p>FREE STANDARD SHIPPING WITH ADICLUB</p>
@@ -35,7 +45,7 @@ function Nav() {
                     <div className="dropDownSection">
                         <div className="ddwrapper">
                             <div className='exitbtn'>
-                                <div className='wrapper'>
+                                <div className='wrapper' onClick={closeMenu2}>
                                     <span>
                                         < CgClose />
                                     </span>
